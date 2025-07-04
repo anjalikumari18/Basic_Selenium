@@ -10,7 +10,7 @@ public class nikeforxpaths {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-		//has too many iframes
+		//has too many iframes, will teach later
 		WebDriver driver=new ChromeDriver();
 	    driver.manage().window().maximize();
 	    driver.get("https://www.nike.com/in/");
