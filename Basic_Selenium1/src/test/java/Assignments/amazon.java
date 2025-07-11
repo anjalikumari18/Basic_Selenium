@@ -9,6 +9,7 @@ public class amazon {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
+		//I am also making changes in the code
 		WebDriver driver=new ChromeDriver();
 	    driver.manage().window().maximize();
 	    driver.get("https://www.amazon.in/");
