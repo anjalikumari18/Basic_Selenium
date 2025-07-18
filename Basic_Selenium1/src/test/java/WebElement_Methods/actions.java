@@ -1,9 +1,11 @@
 package WebElement_Methods;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class actions {
 //Complete this assignment
@@ -19,12 +21,15 @@ public class actions {
 		driver.findElement(By.xpath("//label[text()='Female']/..//input[@value=\"F\"]")).click();
 
 		WebElement firstName = driver.findElement(By.id("FirstName"));
+		Actions act=new Actions(driver);
+		act.click(firstName);
+		act.keyDown(Keys.SHIFT).sendKeys("Anjali").keyUp(Keys.SHIFT).build().perform();
 
-		firstName.sendKeys("Anjali");
+		//firstName.sendKeys("Anjali");
 
 		Thread.sleep(2000);
 		
-		firstName.clear();
+		//firstName.clear();
 		
 		driver.findElement(By.id("register-button")).submit();
 		
