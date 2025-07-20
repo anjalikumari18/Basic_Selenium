@@ -12,6 +12,8 @@ public class FirstLineOfCode {
 		// TODO Auto-generated method stub
 
 		// Upcasting to RemoteWebDriver is possible
+				// Upcasting to WebDriver is possible
+
 
 		// RemoteWebDriver driver=new ChromeDriver();
 
