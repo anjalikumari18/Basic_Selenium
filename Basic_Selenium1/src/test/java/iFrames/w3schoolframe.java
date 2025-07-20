@@ -22,6 +22,8 @@ public class w3schoolframe {
 		
 		Thread.sleep(4000);
 		
+		//Switching control to child window
+		
 		String parentIds = driver.getWindowHandle();
 		Set<String> AllIds = driver.getWindowHandles();
 		for(String id:AllIds)
