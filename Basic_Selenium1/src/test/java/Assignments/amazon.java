@@ -10,6 +10,7 @@ public class amazon {
 		// TODO Auto-generated method stub
 		//Hey making changes
 		
+		//I am also making changes in the code
 		WebDriver driver=new ChromeDriver();
 	    driver.manage().window().maximize();
 	    driver.get("https://www.amazon.in/");
